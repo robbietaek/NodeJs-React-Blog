@@ -43,8 +43,21 @@ function 함수(){
         <p>2월 17일 발행</p>
         <hr/>
       </div>                         
+
+        <Modal/>
     </div>
   );
+}
+
+
+function Modal(){
+  return(
+    <div className="modal">
+    <h2>제목</h2>
+    <p>내용</p>
+    <p>날짜</p>
+    </div>
+  )
 }
 
 export default App;
